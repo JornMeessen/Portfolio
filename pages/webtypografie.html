@@ -1,0 +1,159 @@
+<?php
+require_once '../cookie_tool/cookie_tool.php';
+require_once '../cookie_tool/config.php';
+$cookie_tool = new CookieTool($cookie_tool); 
+?>
+
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w,d,s,l,i){
+			w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+			var f = d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+			j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})
+		(window,document,'script','dataLayer','GTM-NLXJM2G');
+	</script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167544124-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-167544124-2');
+  		gtag('set', {'user_id': 'USER_ID'}); // De gebruikers-ID instellen op basis van de ingelogde user_id.
+	</script>
+
+	<!--cookies-->
+	<link rel="stylesheet" type="text/css" href="../cookie_tool/style.css">
+	<script type="text/javascript" src="../cookie_tool/main.js"></script>
+
+	<meta charset="utf-8" />
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>Portfolio - Minor VID Kleur en Grid</title>
+	<link href="../styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.svg">
+	<script type="text/javascript" src="../js/global.js"></script>
+	<script src="../js/lightbox.js"></script>
+</head>
+<body class="project" id="project">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLXJM2G" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+
+	<!-- Go to top button -->
+	<a id="GoToTop" title="Go to top" data-feather="arrow-up"></a>
+	
+	<!-- progress bar -->
+	<div class="progress-container">
+  		<div class="progress-bar js-progress-bar"></div>
+	</div>
+
+	<nav class="flex">
+        <a href="../minorVID.php" id="logo">J.</a>
+        <span id="toggle"><i data-feather="menu"></i></span>
+        <ul id="menu">
+		    <li><a class="active-page" href="#">Minor VID</a>
+		    	<ul class="dropdown">
+        			<li><a href="pages/grid&kleur.php">Grid & Kleur</a></li>
+        			<li><a class="active-page" href="#">Webtypografie</a></li>
+        			<li><a href="pages/beeld.php">Beeld</a></li>
+        			<li><a href="pages/typografie.php">Typografie</a></li>
+        			<li><a href="pages/ontwerpen_1.php">Ontwerpen 1</a></li>
+        			<li><a href="pages/interface&beweging.php">Interface & Beweging</a></li>
+        			<li><a href="pages/generative_art.php">Generative Art</a></li>
+        			<li><a href="pages/ontwerpen_2.php">Ontwerpen 2</a></li>
+      			</ul>
+    		</li>
+    			<li><a href="../index.php">Portfolio</a></li>
+		   	<li><a href="../Over mij.php">Over mij</a></li>
+		    	<li><a href="#contact">Contact</a></li>
+		</ul>      
+    </nav>
+
+	<header class="box">
+		<img src='../img/postcard_webtypografie.jpg' alt="Project webtypografie">
+	</header>
+
+	<main class="js-article">
+		<h1>Webtypografie</h1>
+
+		<section class="box">
+	 		<article class="flex omschrijving">
+	 			<div class="column1">
+	 				<h2>Context opdracht</h2>
+	 				<p>Voor dit schoolproject heb ik de opdracht gekregen om een website te ontwerpen en coderen voor een buurtsuper. Aan de opdracht werd de eis gesteld dat de content van de supermarkt voorop moest staan. De content verschilt per device. Tevens moest de website gecodeerd worden met CSS grid en Flexbox.</p>
+	 			</div>
+	 			<ul class="column2">
+	 				<li>
+	 					<h2>Activiteit</h2>
+	 					<h6>Typografie</h6><h6>CSS</h6>
+	 				</li>
+	 			</ul>
+			</article>
+	
+	 		<article>
+	 			<h3>Eindresultaat</h3>
+	 			<iframe width="660" height="400" src="https://www.youtube.com/embed/YuhaNcM8-ZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+		</section>
+
+		<section>
+	 		<article>
+	 			<h3>Ontwerpkeuzes</h3>
+	 			<p>Alle ontwerpkeuzes die ik gemaakt heb in dit project heb ik in een uitgebreid verslag op github gezet. In dit verslag ga ik in op de keuzes voor typografie, kleur en vlakverdeling. <a href="https://github.com/JornMeessen/minor-vid-web-typography-20-21-jorn-meessen" target="_blank">Verslag lezen</a></p>
+			</article>
+		</section>
+
+		<section class="backgroundColor">
+			<article>
+				<h3>Reflectie</h3>
+				<p>Tijdens dit project heb ik geleerd om de responsive ontwerpen te maken om deze vervolgens te gaan coderen. Dit betekent dat ik door dit leerproces van coderen met behulp van HTML, CSS en Javascript niet beperkt word in het ontwerpen van digitale producten.</p>
+			</article>
+		</section>
+
+		<section class="box other-projects">
+			<h2>Andere projecten van de minor</h2>
+			<div class="flex" id="projects">
+				<article class="hover" onclick="location.href='robotica.php';" >
+						<img src='../img/robotica.jpg' alt="Project robotica">
+						<div>
+							<h5>Robotica festival</h5>
+							<h6>User interface</h6><h6>User experience</h6>
+						</div>
+				</article>
+				<article class="hover" onclick="location.href='Centre of Expertise.php';">
+						<img src='../img/centre of expertise.jpg' alt="Project Centre of expertise">
+						<div>
+							<h5>Centre of expertise</h5>
+							<h6>User research</h6><h6>Interaction design</h6>
+						</div>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer class="box" id="contact">
+		<h2 id="contactTitel">Contact</h2>
+		<h3><a class="mail" href="mailto:info@jornmeessen.nl">info@jornmeessen.nl</a></h3>
+		<h5>Wilt u een project starten of heeft u een vraag?<br> Neem dan gerust contact met mij op. </h5>
+		<ul id="socials">
+			<li><a href="mailto:info@jornmeessen.nl"><i data-feather="mail"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/jornmeessen/" target="_blank"><i data-feather="linkedin"></i></a></li>
+			<li><a href="https://www.instagram.com/jornmeessen/" target="_blank"><i data-feather="instagram"></i></a></li>
+		</ul>
+		<p>Deze site is met zorg en zelf gecodeerd<br>&copy; Jorn Meessen | <a href="https://jornmeessen.nl">jornmeessen.nl</a> | <a href="cookieverklaring.php">Privacy- en cookieverklaring</a></p>
+	</footer>
+</body>
+</html>
+
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+      //repace iconen
+      feather.replace()
+</script>

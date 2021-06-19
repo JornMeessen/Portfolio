@@ -91,6 +91,10 @@
     line-height: 47px;
   }
 
+  p{
+    margin-top: 1em;
+  }
+
   p, ul{ 
     font-family: 'Lato';
     font-weight: 300;
@@ -117,6 +121,11 @@
     margin: 1em 1em 1.5em 0em;
   }
 
+  .omschrijving h6{
+   /* margin: 1em 1em 0em 0em;*/
+    display: list-item;
+  }
+
   .overmij h6{
     margin-bottom: 0.5em;
     background-color: #1f1f1f;
@@ -128,6 +137,19 @@
     text-decoration: none;
     transition: .3s background-color;
   }
+
+  main p a{
+    line-height: 25px;
+    display: inline-block;
+    border-bottom: 3px solid #170539;
+    font-weight: 700;
+    margin-top: 1em;
+  }
+
+  main p a:hover{
+    border-bottom: 0px solid #170539;
+  }
+
 
   #more {display: none;}
 
@@ -375,6 +397,11 @@
   }
 
   /* Buttons */
+  button{
+    padding: 0.7em 1em !important;
+    margin-top: 1em;
+  }
+
   .button{
     padding: 1em 0.5em;
     width: fit-content;
@@ -490,7 +517,7 @@
   }
 
   .projectImg{
-    margin-right: 0.5em;
+    margin-right: 1.5em;
     cursor: pointer;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -498,15 +525,21 @@
   }
 
   .imgshort{
-      width: 30% !important;
+      width: 29% !important;
   }
 
   .imglong{
-      width: 43% !important;
+      width: 46% !important;
   }
 
   .imgfull{
       width: 100% !important;
+  }
+
+  iframe{
+    margin-top: 2em;
+    transition-duration: 0.4s;
+    transition-property: transform;
   }
 
 /* stijl home */ 
