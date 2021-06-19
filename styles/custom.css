@@ -129,6 +129,10 @@
     transition: .3s background-color;
   }
 
+  #more {display: none;}
+
+
+
  /* a:hover{
     color: #003fc1;
   }*/
@@ -499,6 +503,10 @@
 
   .imglong{
       width: 43% !important;
+  }
+
+  .imgfull{
+      width: 100% !important;
   }
 
 /* stijl home */ 
